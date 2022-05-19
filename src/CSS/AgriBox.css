@@ -1,0 +1,36 @@
+.agriBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid rgb(61, 173, 108);
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .agriBox:hover {
+    border: 1px solid rgb(7, 148, 61);
+  }
+  
+  .agriBox__info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .agriBox__info > h5 {
+    color: rgb(13, 139, 13);
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  .agriBox__agri {
+    display: flex;
+    margin-top: 8px;
+  }
+  
+  .agriBox__agri > p {
+    color: rgb(4, 126, 30);
+    font-weight: bold;
+    font-size: large;
+  }
+  

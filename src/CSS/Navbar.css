@@ -1,0 +1,199 @@
+.aHeader{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    background-color:rgb(17, 72,17);
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    z-index: 1000;
+    top:0;
+    box-shadow:  0px 10px 8px -9px rgba(0, 0, 0,0.5);
+    justify-content: space-evenly;
+}
+.nav-links{
+    align-items: center;
+}
+.aHeader__logo>img{
+    height: 40px;
+    margin-right: 20px;
+}
+.aHeader__icons{
+    display: flex;
+    margin-right: 20px;
+}
+li{
+    list-style-type:none ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.aHeader__icon > .MuiSvgIcon-root{
+        color: rgb(14, 177, 82);
+        font-size: xx-large;
+        cursor: pointer;
+        padding: 5px 20px;
+}
+.aHeader__icon > .MuiSvgIcon-root:hover{
+    color: rgb(12, 97, 57);
+    border-radius:  10px;
+    background-color: rgb(211, 211, 211);
+
+}
+.aHeader__input{
+    display: flex;
+    align-items:  center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.aHeader__input>input{
+    background-color: black;
+    outline: none;
+    border:  none;
+    color: rgb(255, 255, 255);
+}
+.aHeader__input> .MuiSvgIcon-root{
+    color:  gray;
+}
+
+.aHeader__Rem{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.aHeader__Rem> .aHeader__avatar{
+    cursor: pointer;
+}
+.aHeader__Rem> .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.aHeader__Rem> .MuiSvgIcon-root :hover{
+    font-size: xx-large;
+    color: rgba(17, 160, 93, 0.616);
+}
+.aHeader__Rem> .MuiButton-root{
+    color: rgb(255, 253, 253);
+    margin-left: 25px;
+    text-transform: inherit;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.aHeader__Rem> .MuiButton-root:hover{
+    color: rgb(18, 146, 108);
+    margin-left: 25px;
+    text-transform: inherit;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.questionbutton{
+    background-color: rgb(30, 185, 30);
+    color: white;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.questionbutton:hover{
+    color: rgb(30, 185, 30);
+    background-color: white;
+
+}
+/* .modal__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}  
+.modal__title > h5 {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.modal__title > h5:hover {
+    color: #b92b27;
+}
+.modal__info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.modal__info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+}
+.modal__info > .modal__scope {
+    display: flex;
+    align-items: center;
+    color: rgb(98, 98, 98);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 33px;
+    cursor: pointer;
+}
+.modal__field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+}
+  
+  .modal__field > .modal__fieldLink {
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .modal__field > .modal__fieldLink > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .modal__buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 260px;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+  }
+  
+  .modal__buttons > .cancel {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  .modal__buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: rgb(0, 64, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+ */
+
+
